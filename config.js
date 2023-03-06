@@ -2,14 +2,14 @@
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "94774516277";   // You can Change this number //
+  gg = "918770333268";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
 
 
 global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "mongodb+srv://Yakashi13:JgqyU1h6rCuoWZB3@cluster0.bxg2jzn.mongodb.net/?retryWrites=true&w=majority"; // paste your own MongoDB url..
+global.mongodb = process.env.MONGODB || "mongodb+srv://Castlevnia1:Tomato@cluster0.imvpoa8.mongodb.net/?retryWrites=true&w=majority"; // paste your own MongoDB url..
 global.sessionId = process.env.SESSION_ID || "ok";
 global.prefa = process.env.PREFIX || "-";
 global.tenorApiKey =
